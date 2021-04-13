@@ -153,18 +153,23 @@ select {
     display: block;
 }
 
-#btn {
+.button {
     display: inline-block;
     background: #ccc;
     padding: 0.8em;
     margin: 1.2em auto;
     transition: ease 0.3s all;
+    max-width: 10em;
 }
 
-#btn:hover {
+.button:hover {
     background: #777;
     color: #fff;
     cursor: pointer;
+}
+
+#reset-btn {
+    display: none;
 }
 
 /* Footer */
